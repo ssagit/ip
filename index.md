@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+# User Guide
 
-You can use the [editor on GitHub](https://github.com/ssagit/ip/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Command Format
+1) Words in UPPER_CASE are parameters to be supplied by the user
+2) Items in <> brackets are compulsory, not adding them results in exceptions.
+3) Parameters must be in order
+  e.g. If `event <TASK_NAME> [/at DATE_FORMAT]` is specified, user must input command in that order.
+4) Date format must specifically be `D/MM/YYYY HHMM`
+  e.g. If month is 15th of July 2020 2PM, the format must be `15/07/2020 1400`
+5) Extraneous parameters for command that do not take in parameters (such as `list`) will be ignored.
+  e.g. If user specifies `list 123`, helper interprets it as `list`.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Add TODO task `todo`
+Add a TODO task to the task list.
+Format: `todo <TASK_NAME>`
 
-### Markdown
+## Add EVENT task `event`
+Add an event task to the task list.
+Format: `event <TASK_NAME> </at DATE_TIME>`
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Add DEADLINE task `deadline`
+Add a deadline task to the task list.
+Format: `deadline <TASK_NAME> </by DATE_TIME>`
 
-```markdown
-Syntax highlighted code block
+## List tasks `list`
+Shows a list of all tasks in the task list.
+Format: `list`
 
-# Header 1
-## Header 2
-### Header 3
+## Delete task `delete`
+Deletes the specified task from the task list.
+Format: `delete <TASK_NUMBER>`
+Tip: User can find the task number through the command `list`.
 
-- Bulleted
-- List
+## Mark task as complete `done`
+Marks a task as complete.
+Format: `done <TASK_NUMBER>`
+Tip: User can find the task number through the command `list`.
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ssagit/ip/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Find a task `find`
+Finds a task based on its name.
+Format `find <STRING_TO_FIND>`
