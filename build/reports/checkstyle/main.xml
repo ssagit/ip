@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.29">
+<file name="D:\Repos\2103_ip1\ip\src\main\java\duke\DialogBox.java">
+</file>
+<file name="D:\Repos\2103_ip1\ip\src\main\java\duke\Duke.java">
+</file>
+<file name="D:\Repos\2103_ip1\ip\src\main\java\duke\Launcher.java">
+</file>
+<file name="D:\Repos\2103_ip1\ip\src\main\java\duke\Main.java">
+</file>
+<file name="D:\Repos\2103_ip1\ip\src\main\java\duke\MainWindow.java">
+</file>
+<file name="D:\Repos\2103_ip1\ip\src\main\java\duke\datevalidator\DateValidator.java">
+</file>
+<file name="D:\Repos\2103_ip1\ip\src\main\java\duke\datevalidator\DateValidatorLocalDate.java">
+</file>
+<file name="D:\Repos\2103_ip1\ip\src\main\java\duke\parser\Parser.java">
+</file>
+<file name="D:\Repos\2103_ip1\ip\src\main\java\duke\parser\Tuple2.java">
+</file>
+<file name="D:\Repos\2103_ip1\ip\src\main\java\duke\storage\Storage.java">
+</file>
+<file name="D:\Repos\2103_ip1\ip\src\main\java\duke\taskclass\DeadlineTask.java">
+</file>
+<file name="D:\Repos\2103_ip1\ip\src\main\java\duke\taskclass\EventTask.java">
+</file>
+<file name="D:\Repos\2103_ip1\ip\src\main\java\duke\taskclass\Task.java">
+</file>
+<file name="D:\Repos\2103_ip1\ip\src\main\java\duke\taskclass\TaskType.java">
+</file>
+<file name="D:\Repos\2103_ip1\ip\src\main\java\duke\ui\ConsoleUI.java">
+</file>
+</checkstyle>
